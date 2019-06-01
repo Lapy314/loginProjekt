@@ -11,7 +11,7 @@
           echo '<p>Fill in all fields!</p>';
         }
       }
-      if($_GET['signup'] == 'success') {
+      if(isset($_GET['signup']) == 'success') {
         echo '<p>Signup successful!</p>';
       }
      ?>
@@ -20,7 +20,7 @@
       <input type="text" name="mail" placeholder = "E-mail">
       <input type="password" name="pwd" placeholder = "Password">
       <input type="password" name="pwd-repeat" placeholder = "Repeat Password">
-      <button type="submit" name="signup-submit">Signup</button>
+      <button class = "signup-submit" type="submit" name="signup-submit">Signup</button>
     </form>
   </main>
 
