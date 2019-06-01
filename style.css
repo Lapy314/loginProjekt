@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.loginForm {
+  display: inline-block;
+}
